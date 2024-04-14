@@ -1,0 +1,90 @@
+body, h2, .form-control, .btn-block {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-signin {
+    margin: 0;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    z-index: 2;
+    border-color: #4d90fe;
+    outline: none;
+}
+
+.btn-block {
+    text-align: center;
+    background-color: #1C5F22;
+    border-color: #144619;
+    color: white;
+    font-size: 12px;
+    padding: 13px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-block:hover,
+.btn-block:focus {
+    background-color: #5cb85c;
+    border-color: #498c49;
+}
+
+p{
+    text-align: center;
+}

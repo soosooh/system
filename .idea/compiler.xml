@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloSpring" />
-        <module name="helloSpringMVC" />
+        <module name="system" />
       </profile>
     </annotationProcessing>
   </component>
